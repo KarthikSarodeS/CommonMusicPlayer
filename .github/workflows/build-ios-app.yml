@@ -9,6 +9,6 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
-      - run: fastlane beta
+      - run: fastlane custom_lane
         env:
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
