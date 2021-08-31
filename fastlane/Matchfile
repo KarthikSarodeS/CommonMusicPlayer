@@ -1,4 +1,4 @@
-git_url("https://github.com/KarthikSarodeS/CommonMusicPlayer/Certificates/")
+git_url("git@github.com:KarthikSarodeS/Certificates.git")
 
 storage_mode("git")
 
