@@ -11,11 +11,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-		token: <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>
+		token: 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
       - name: Build app
         run: fastlane custom_lane
         with:
-                token: <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>
+                token: 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
         env:
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
 
