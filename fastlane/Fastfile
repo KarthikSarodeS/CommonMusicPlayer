@@ -19,7 +19,6 @@ platform :ios do
   desc "Description of what the lane does"
   lane :custom_lane do
     setup_ci
-    match(type: "appstore", readonly: is_ci)
     build_app(scheme: "CommmonMusicPlayer")
     diawi
   end
