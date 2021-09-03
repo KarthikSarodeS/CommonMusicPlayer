@@ -20,6 +20,8 @@ platform :ios do
   lane :custom_lane do
     setup_ci
     build_app(scheme: "CommmonMusicPlayer")
-    diawi
+    diawi(
+      token: "PPpEsae5OXucKpsvogXObSvX4klbG6lltWKC8oBk9B"
+    )
   end
 end
